@@ -1,0 +1,8 @@
+{
+    "compalierOptions":{
+        "baseUrl": ".",
+        "path":{
+            "@/components/*":["components/*"]
+        }
+    }
+}
