@@ -46,6 +46,9 @@ module.exports = {
       height:{
           "vh":"100vh"
       },
+      fontSize:{
+        "3x":"2rem"
+      },
       fontFamily: {
         body: ['Quicksand',"sans-serif"]
       }
@@ -61,6 +64,11 @@ module.exports = {
       const newUtilities = {
         ".empty-content": {
           content: "''",
+          position:"absolute",
+          width:"12px",
+          height: "12px",
+          backgroundColor: "#322FF2",
+          
         },
       }
       addUtilities(newUtilities, {
